@@ -25,4 +25,11 @@ public class Url {
     private LocalDateTime createdAt;
     private LocalDateTime expiryAt;
 
+    public Url(String urlOriginal, String shortUrl, LocalDateTime createdAt, LocalDateTime expiryAt) {
+        this.urlOriginal = urlOriginal;
+        this.shortUrl = shortUrl;
+        this.createdAt = createdAt;
+        this.expiryAt = expiryAt;
+    }
+
 }
